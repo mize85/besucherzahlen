@@ -160,7 +160,7 @@ async function loop() {
 async function main() {
   while (true) {
     await loop();
-    // 15 min
+    // 10 min
     console.log(`Sleeping 10min...`);
     await sleep(600000)
   }
